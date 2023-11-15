@@ -19,6 +19,7 @@
 }
  .full{
   width:100%;
+  background-color: #211C24;
  }
   .navbar{
     display:flex;
@@ -83,7 +84,11 @@
     background-color: #2E2E2E;
   }
   .nav2{
-    padding: 4px 0 4px 0;
+    height: 48px;
+    padding: 10px 0 4px 0;
+  }
+  .nav2 i{
+    color: #656565;
   }
   .home-page{
     /* width:100%; */
@@ -392,7 +397,7 @@
   left: 70px;
 }
 .product-desc{
-  width:296px;
+  width:338px;
   height:208px;
   margin: 0px 20px
 }
@@ -402,8 +407,9 @@
 }
 .product-desc p{
   color: #909090;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
+  margin-top: 12px;
 }
 .product-desc button{
   width:184px;
@@ -423,8 +429,9 @@
 }
 .product-page2-div2-desc p{
   color: #909090;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 20px;
+  margin-top: 12px;
 }
 .product-page2-div2-desc button{
   width:184px;
@@ -457,7 +464,7 @@
   margin-top: 20px;
 }
 .product-page2-div4 img{
-  height:400px;
+  height:412px;
 }
 .product-page2-div4-desc{
   margin: 60px 20px;
@@ -470,6 +477,7 @@
 .product-page2-div4-desc p{
   color: #909090;
   line-height: 20px;
+  margin-top: 12px;
 }
 .product-desc4{
   background-color: #909090;
@@ -483,7 +491,7 @@
   border: 1px solid white;
   color: white;
   background-color:#2C2C2C;
-  margin-top:40px;
+  margin-top:25px;
 }
 .product-page2-div4 img{
   float: right;
@@ -616,6 +624,7 @@
 .footer-div1{
   width:384px;
   height:104px;
+
 }
 .footer-div1 p{
   color: white;
@@ -661,6 +670,7 @@
   color:white;
   display: inline;
   display: flex;
+  margin-left: 148px;
   
 }
 .fa-brands{
@@ -889,7 +899,7 @@ margin-left: 100px;
   padding-left: 60px;
 }
 .new-arrivals-p1 p{
-  font-size: 20px;
+  font-size: 23px;
 }
 .new-arrivals-btn{
   padding-left: 60px;
@@ -910,6 +920,7 @@ margin-left: 100px;
   height: 450px;
 }
 .product-desc{
+  width: 296px;
   margin-left: 35%;
 }
 .product-desc h3{
